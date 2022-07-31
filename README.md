@@ -20,4 +20,4 @@ I modified the button to instead dispatch an action that would update the city r
 
 # What I would do if I had more time : 
 
-I would investigate how to make the Apollo GraphQL query re-run upon updating the city requested in the Redux store
+I would investigate how to make the Apollo GraphQL query re-run upon updating the city requested in the Redux store 
