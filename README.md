@@ -8,17 +8,16 @@ Please run `npm start`
 
 The application front-end will fun on port 3000 🚀 !
 
-# What I have done so far : 
+# What I added in this version : 
 
-I created a react app where I  set up an Apollo GraphQL client and a Redux store 
+I used the Material-UI library to display the data in a more aesthetic way
 
-At the moment, nothing fancy is being displayed, I simply am showing the data that the Apollo Client is able to fetch from graphql-weather-api
-I am similarly showing the data that the Redux store has within it
+I used the data in the Redux Store to render the data
 
-I have made a button that dispatches the action to store the data fetched by Apollo into the redux store.
-A reducer identifies the type of the action dispatched and attempts to store the data in the action's payload within the redux store.
+I added a text field that would allow the user to change the desired city to fetch data weather for
+
+I modified the button to instead dispatch an action that would update the city requested in the Redux store
 
 # What I would do if I had more time : 
 
-Look into making UI components that would consume the data in the Redux store
-Possibly use something like bootstrap or material-ui for laying them out
+I would investigate how to make the Apollo GraphQL query re-run upon updating the city requested in the Redux store
