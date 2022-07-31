@@ -55,7 +55,7 @@ export const WeatherDashboard = () => {
             </p>
             <img 
             src={`http://openweathermap.org/img/wn/${weather_data_store.getState().weather.summary.icon}@2x.png`} 
-            alt = "weather icon"
+            alt = "weather_icon"
             />
           </Item>
         </Grid>
